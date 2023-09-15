@@ -48,9 +48,12 @@
             <property name="customEscapingFunctions" type="array">
                 <element value="wpcs_esc_str_rev"/>
                 <element value="Helpers"/>
-                <element value="Helpers::wpcs_esc_str_rev"/>
-                <element value="Helpers\:\:wpcs_esc_str_rev"/>
-                <element key="Helpers" value="wpcs_esc_str_rev"/>
+                <element value="Helpers::wpcs_static_esc_str_rev"/>
+                <element value="Helpers\:\:wpcs_static_esc_str_rev"/>
+                <element key="Helpers" value="wpcs_static_esc_str_rev"/>
+                <element value="Helpers::wpcs_static_esc_str_rev"/>
+                <element value="Helpers\:\:wpcs_static_esc_str_rev"/>
+                <element key="Helpers" value="wpcs_static_esc_str_rev"/>
             </property>
         </properties>
     </rule>
