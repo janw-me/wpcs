@@ -33,7 +33,7 @@
     "createzip:downloads": "Will create a zip named 'plugin-slug-0.1.0.zip' in the plugin folder."
   },
   "require-dev": {
-    "wp-coding-standards/wpcs": "^3",
+    "wp-coding-standards/wpcs": "dev-hotifx/escape-output-sniff",
     "phpcompatibility/phpcompatibility-wp": "^2",
     "szepeviktor/phpstan-wordpress": "^1",
     "php-stubs/acf-pro-stubs": "^6",
