@@ -16,5 +16,3 @@ class Helpers {
 
 echo wpcs_esc_str_rev( 'Hello World!' );
 echo Helpers::wpcs_static_esc_str_rev( 'Hello World!' );
-$wpcs_helper = new Helpers();
-echo $wpcs_helper->wpcs_method_esc_str_rev( 'Hello World!' );
